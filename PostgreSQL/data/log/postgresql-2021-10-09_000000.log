@@ -1,0 +1,4 @@
+2021-10-13 11:32:17.092 -03 [10192] ERROR:  no se pudo serializar el acceso debido a un delete concurrente
+2021-10-13 11:32:17.092 -03 [10192] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (457, 418)
+2021-10-13 14:50:55.837 -03 [10192] ERROR:  no se pudo serializar el acceso debido a un delete concurrente
+2021-10-13 14:50:55.837 -03 [10192] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (940)

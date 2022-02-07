@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="0">
+        <!-- primary|extension Inherited .:Form:. view for "model" -->
+        <record id="res_config_settings_view_form_website_visibility" model="ir.ui.view">
+            <field name="name">res_config_settings_view_form_website_visibility</field>
+            <field name="model">res.config.settings</field>
+            <field name="inherit_id" ref="stock.res_config_settings_view_form" />
+            <field name="type">form</field>
+            <field name="mode">extension</field>
+            <field name="priority" eval="16" />
+            <field name="active" eval="True" />
+            <field name="arch" type="xml">
+
+                <xpath expr="//div[@data-string='Inventory']" position="inside">
+                    <h2>Product Variant Website Visibility Message</h2>
+                    <div class="row mt16 o_settings_container">
+                        <div class="col-12 col-lg-6 o_setting_box" title="Actualmente sin stock">
+                            <div class="o_setting_right_pane">
+                                <div class="text-muted">
+                                        Actualmente sin stock
+                                </div>
+                                <div class="content-group">
+                                    <div class="mt16">
+                                            Message
+                                        <field name="website_variants_visibility_message" class="oe_inline"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </xpath>
+
+            </field>
+        </record>
+    </data>
+</odoo>

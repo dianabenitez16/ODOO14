@@ -1,0 +1,33 @@
+2021-10-08 00:01:52.554 -03 [5992] LOG:  el sistema de bases de datos fue interrumpido; �ltima vez en funcionamiento en 2021-10-07 23:43:22 -03
+2021-10-08 00:01:54.185 -03 [5992] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se est� efectuando la recuperaci�n autom�tica
+2021-10-08 00:01:54.193 -03 [5992] LOG:  redo comienza en 0/EF86A50
+2021-10-08 00:01:54.194 -03 [5992] LOG:  largo de registro no v�lido en 0/EF86A88: se esperaba 24, se obtuvo 0
+2021-10-08 00:01:54.194 -03 [5992] LOG:  redo listo en 0/EF86A50
+2021-10-08 00:01:54.237 -03 [5712] LOG:  el sistema de bases de datos est� listo para aceptar conexiones
+2021-10-08 10:11:24.107 -03 [9460] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2021-10-08 10:11:24.107 -03 [9460] SENTENCIA:  SELECT * FROM website_visitor where id = 1 FOR NO KEY UPDATE NOWAIT
+2021-10-08 10:17:50.000 -03 [2152] ERROR:  update o delete en «product_product» viola la llave foránea «sale_order_line_product_id_fkey» en la tabla «sale_order_line»
+2021-10-08 10:17:50.000 -03 [2152] DETALLE:  La llave (id)=(9763) todavía es referida desde la tabla «sale_order_line».
+2021-10-08 10:17:50.000 -03 [2152] SENTENCIA:  DELETE FROM product_template WHERE id IN (9678, 9677, 9544, 9539, 9546, 9542, 9543, 9547, 9548, 9497, 9488, 9503, 9504, 9535, 9551, 9489, 9537, 9555, 9580, 9502, 9520, 9518, 9514, 9568, 9569, 9536, 9534, 9562, 9561, 9582, 9565, 9567, 9566, 9564, 9563, 9508, 9578, 9509, 9541, 9583, 9584, 9585, 9586, 9579, 9588, 9589, 9590, 9591, 9587, 9572, 9570, 9571, 9573, 9574, 9577, 9576, 9575, 9679, 9680, 9673, 9525, 9500, 9676, 9530, 9513, 9526, 9523, 9532, 9592, 9506, 9581, 9558, 9560, 9559, 9512, 9533, 9499, 9549)
+2021-10-08 10:21:47.948 -03 [7536] ERROR:  update o delete en «product_product» viola la llave foránea «stock_inventory_line_product_id_fkey» en la tabla «stock_inventory_line»
+2021-10-08 10:21:47.948 -03 [7536] DETALLE:  La llave (id)=(9517) todavía es referida desde la tabla «stock_inventory_line».
+2021-10-08 10:21:47.948 -03 [7536] SENTENCIA:  DELETE FROM product_product WHERE id IN (9517)
+2021-10-08 10:21:48.074 -03 [7536] ERROR:  update o delete en «product_product» viola la llave foránea «stock_inventory_line_product_id_fkey» en la tabla «stock_inventory_line»
+2021-10-08 10:21:48.074 -03 [7536] DETALLE:  La llave (id)=(9517) todavía es referida desde la tabla «stock_inventory_line».
+2021-10-08 10:21:48.074 -03 [7536] SENTENCIA:  DELETE FROM product_product WHERE id IN (9517)
+2021-10-11 00:04:17.116 -03 [9460] ERROR:  no se pudo bloquear un candado en la fila de la relación «ir_cron»
+2021-10-11 00:04:17.116 -03 [9460] SENTENCIA:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=1
+	                                       FOR UPDATE NOWAIT
+2021-10-12 11:17:34.758 -03 [9752] ERROR:  no se pudo bloquear un candado en la fila de la relación «ir_cron»
+2021-10-12 11:17:34.758 -03 [9752] SENTENCIA:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=9
+	                                       FOR UPDATE NOWAIT

@@ -1,0 +1,6 @@
+2021-12-12 19:47:39.010 -03 [5428] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2021-12-12 15:56:06 -03
+2021-12-12 19:47:41.391 -03 [5428] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2021-12-12 19:47:41.399 -03 [5428] LOG:  redo comienza en 0/1E5DFD40
+2021-12-12 19:47:41.400 -03 [5428] LOG:  largo de registro no válido en 0/1E5DFD78: se esperaba 24, se obtuvo 0
+2021-12-12 19:47:41.401 -03 [5428] LOG:  redo listo en 0/1E5DFD40
+2021-12-12 19:47:41.475 -03 [4112] LOG:  el sistema de bases de datos está listo para aceptar conexiones

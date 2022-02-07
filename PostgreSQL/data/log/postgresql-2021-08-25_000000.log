@@ -1,0 +1,85 @@
+2021-08-25 13:45:11.997 -04 [4424] ERROR:  no se pudo bloquear un candado en la fila de la relación «ir_cron»
+2021-08-25 13:45:11.997 -04 [4424] SENTENCIA:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=16
+	                                       FOR UPDATE NOWAIT
+2021-08-25 13:48:09.407 -04 [2572] ERROR:  no se pudo bloquear un candado en la fila de la relación «website_visitor»
+2021-08-25 13:48:09.407 -04 [2572] SENTENCIA:  SELECT * FROM website_visitor where id = 1 FOR NO KEY UPDATE NOWAIT
+2021-08-25 13:53:19.179 -04 [4424] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-08-25 13:53:19.180 -04 [7692] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-08-25 13:53:19.180 -04 [10688] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-08-25 13:53:19.185 -04 [2572] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-08-25 13:53:19.200 -04 [832] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-08-25 13:53:19.221 -04 [10212] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-08-25 13:53:19.262 -04 [8540] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-08-25 14:48:32.505 -04 [9552] ERROR:  no se pudo bloquear un candado en la fila de la relación «ir_cron»
+2021-08-25 14:48:32.505 -04 [9552] SENTENCIA:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=15
+	                                       FOR UPDATE NOWAIT
+2021-08-25 16:41:47.871 -04 [12272] ERROR:  llave duplicada viola restricción de unicidad «product_product_combination_unique»
+2021-08-25 16:41:47.871 -04 [12272] DETALLE:  Ya existe la llave (product_tmpl_id, combination_indices)=(9517, ).
+2021-08-25 16:41:47.871 -04 [12272] SENTENCIA:  UPDATE "product_product" SET "can_image_variant_1024_be_zoomed"=false,"combination_indices"='',"write_uid"=2,"write_date"=(now() at time zone 'UTC') WHERE id IN (9593, 9594, 9595, 9596, 9597, 9598, 9599, 9600, 9601, 9602, 9603, 9604, 9605, 9606, 9607, 9608, 9609, 9610, 9611, 9612, 9613, 9614, 9615, 9616, 9617, 9618, 9619, 9620, 9621, 9622, 9623, 9624, 9625, 9626, 9627, 9628, 9629, 9630, 9631, 9632, 9633, 9634, 9635, 9636, 9637, 9638, 9639, 9640, 9641, 9642, 9643, 9644, 9645, 9646, 9647, 9648, 9649, 9650, 9651, 9652, 9653, 9654, 9655, 9656, 9657, 9658, 9659, 9660, 9661, 9662, 9663, 9664, 9665, 9666, 9667, 9668, 9669, 9670, 9671, 9672)
+2021-08-25 16:41:47.933 -04 [12272] ERROR:  llave duplicada viola restricción de unicidad «product_product_combination_unique»
+2021-08-25 16:41:47.933 -04 [12272] DETALLE:  Ya existe la llave (product_tmpl_id, combination_indices)=(9517, ).
+2021-08-25 16:41:47.933 -04 [12272] SENTENCIA:  UPDATE "product_product" SET "can_image_variant_1024_be_zoomed"=false,"combination_indices"='',"write_uid"=2,"write_date"=(now() at time zone 'UTC') WHERE id IN (9673)
+2021-08-25 16:41:48.000 -04 [12272] ERROR:  llave duplicada viola restricción de unicidad «product_product_combination_unique»
+2021-08-25 16:41:48.000 -04 [12272] DETALLE:  Ya existe la llave (product_tmpl_id, combination_indices)=(9521, ).
+2021-08-25 16:41:48.000 -04 [12272] SENTENCIA:  UPDATE "product_product" SET "can_image_variant_1024_be_zoomed"=false,"combination_indices"='',"write_uid"=2,"write_date"=(now() at time zone 'UTC') WHERE id IN (9674)
+2021-08-25 16:41:48.067 -04 [12272] ERROR:  llave duplicada viola restricción de unicidad «product_product_combination_unique»
+2021-08-25 16:41:48.067 -04 [12272] DETALLE:  Ya existe la llave (product_tmpl_id, combination_indices)=(9544, ).
+2021-08-25 16:41:48.067 -04 [12272] SENTENCIA:  UPDATE "product_product" SET "can_image_variant_1024_be_zoomed"=false,"combination_indices"='',"write_uid"=2,"write_date"=(now() at time zone 'UTC') WHERE id IN (9675)
+2021-08-25 16:41:48.133 -04 [12272] ERROR:  llave duplicada viola restricción de unicidad «product_product_combination_unique»
+2021-08-25 16:41:48.133 -04 [12272] DETALLE:  Ya existe la llave (product_tmpl_id, combination_indices)=(9539, ).
+2021-08-25 16:41:48.133 -04 [12272] SENTENCIA:  UPDATE "product_product" SET "can_image_variant_1024_be_zoomed"=false,"combination_indices"='',"write_uid"=2,"write_date"=(now() at time zone 'UTC') WHERE id IN (9676)
+2021-08-25 16:41:48.199 -04 [12272] ERROR:  llave duplicada viola restricción de unicidad «product_product_combination_unique»
+2021-08-25 16:41:48.199 -04 [12272] DETALLE:  Ya existe la llave (product_tmpl_id, combination_indices)=(9546, ).
+2021-08-25 16:41:48.199 -04 [12272] SENTENCIA:  UPDATE "product_product" SET "can_image_variant_1024_be_zoomed"=false,"combination_indices"='',"write_uid"=2,"write_date"=(now() at time zone 'UTC') WHERE id IN (9677)
+2021-08-25 16:41:48.262 -04 [12272] ERROR:  llave duplicada viola restricción de unicidad «product_product_combination_unique»
+2021-08-25 16:41:48.262 -04 [12272] DETALLE:  Ya existe la llave (product_tmpl_id, combination_indices)=(9542, ).
+2021-08-25 16:41:48.262 -04 [12272] SENTENCIA:  UPDATE "product_product" SET "can_image_variant_1024_be_zoomed"=false,"combination_indices"='',"write_uid"=2,"write_date"=(now() at time zone 'UTC') WHERE id IN (9678)
+2021-08-25 16:41:48.323 -04 [12272] ERROR:  llave duplicada viola restricción de unicidad «product_product_combination_unique»
+2021-08-25 16:41:48.323 -04 [12272] DETALLE:  Ya existe la llave (product_tmpl_id, combination_indices)=(9543, ).
+2021-08-25 16:41:48.323 -04 [12272] SENTENCIA:  UPDATE "product_product" SET "can_image_variant_1024_be_zoomed"=false,"combination_indices"='',"write_uid"=2,"write_date"=(now() at time zone 'UTC') WHERE id IN (9679)
+2021-08-25 16:41:48.386 -04 [12272] ERROR:  llave duplicada viola restricción de unicidad «product_product_combination_unique»
+2021-08-25 16:41:48.386 -04 [12272] DETALLE:  Ya existe la llave (product_tmpl_id, combination_indices)=(9547, ).
+2021-08-25 16:41:48.386 -04 [12272] SENTENCIA:  UPDATE "product_product" SET "can_image_variant_1024_be_zoomed"=false,"combination_indices"='',"write_uid"=2,"write_date"=(now() at time zone 'UTC') WHERE id IN (9680)
+2021-08-25 16:41:48.447 -04 [12272] ERROR:  llave duplicada viola restricción de unicidad «product_product_combination_unique»
+2021-08-25 16:41:48.447 -04 [12272] DETALLE:  Ya existe la llave (product_tmpl_id, combination_indices)=(9548, ).
+2021-08-25 16:41:48.447 -04 [12272] SENTENCIA:  UPDATE "product_product" SET "can_image_variant_1024_be_zoomed"=false,"combination_indices"='',"write_uid"=2,"write_date"=(now() at time zone 'UTC') WHERE id IN (9681)
+2021-08-25 16:41:48.508 -04 [12272] ERROR:  llave duplicada viola restricción de unicidad «product_product_combination_unique»
+2021-08-25 16:41:48.508 -04 [12272] DETALLE:  Ya existe la llave (product_tmpl_id, combination_indices)=(9497, ).
+2021-08-25 16:41:48.508 -04 [12272] SENTENCIA:  UPDATE "product_product" SET "can_image_variant_1024_be_zoomed"=false,"combination_indices"='',"write_uid"=2,"write_date"=(now() at time zone 'UTC') WHERE id IN (9682)
+2021-08-25 16:43:16.026 -04 [14508] ERROR:  la sintaxis de entrada no es válida para tipo integer: «product.product_category_ca» en carácter 87
+2021-08-25 16:43:16.026 -04 [14508] SENTENCIA:  SELECT "product_category".id FROM "product_category" WHERE ("product_category"."id" = 'product.product_category_ca') ORDER BY  "product_category"."complete_name"  
+2021-08-25 16:43:16.029 -04 [14508] ERROR:  transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2021-08-25 16:43:16.029 -04 [14508] SENTENCIA:  SELECT value FROM ir_translation
+	                       WHERE lang='es_PY' AND type in ('code') AND src='Invalid database id ''%s'' for the field ''%%(field)s''' AND md5(src)=md5('Invalid database id ''%s'' for the field ''%%(field)s''')
+2021-08-25 16:43:16.030 -04 [14508] ERROR:  transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2021-08-25 16:43:16.030 -04 [14508] SENTENCIA:  SELECT "product_category".id FROM "product_category" WHERE ("product_category"."complete_name" = 'CA') ORDER BY  "product_category"."complete_name"   LIMIT 100
+2021-08-25 16:43:20.894 -04 [15636] ERROR:  la sintaxis de entrada no es válida para tipo integer: «product.product_category_ca» en carácter 87
+2021-08-25 16:43:20.894 -04 [15636] SENTENCIA:  SELECT "product_category".id FROM "product_category" WHERE ("product_category"."id" = 'product.product_category_ca') ORDER BY  "product_category"."complete_name"  
+2021-08-25 16:43:20.897 -04 [15636] ERROR:  transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2021-08-25 16:43:20.897 -04 [15636] SENTENCIA:  SELECT value FROM ir_translation
+	                       WHERE lang='es_PY' AND type in ('code') AND src='Invalid database id ''%s'' for the field ''%%(field)s''' AND md5(src)=md5('Invalid database id ''%s'' for the field ''%%(field)s''')
+2021-08-25 16:43:20.898 -04 [15636] ERROR:  transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2021-08-25 16:43:20.898 -04 [15636] SENTENCIA:  SELECT "product_category".id FROM "product_category" WHERE ("product_category"."complete_name" = 'CA') ORDER BY  "product_category"."complete_name"   LIMIT 100
+2021-08-25 16:43:22.133 -04 [12272] ERROR:  la sintaxis de entrada no es válida para tipo integer: «product.product_category_ca» en carácter 87
+2021-08-25 16:43:22.133 -04 [12272] SENTENCIA:  SELECT "product_category".id FROM "product_category" WHERE ("product_category"."id" = 'product.product_category_ca') ORDER BY  "product_category"."complete_name"  
+2021-08-25 16:43:22.135 -04 [12272] ERROR:  transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2021-08-25 16:43:22.135 -04 [12272] SENTENCIA:  SELECT value FROM ir_translation
+	                       WHERE lang='es_PY' AND type in ('code') AND src='Invalid database id ''%s'' for the field ''%%(field)s''' AND md5(src)=md5('Invalid database id ''%s'' for the field ''%%(field)s''')
+2021-08-25 16:43:22.136 -04 [12272] ERROR:  transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+2021-08-25 16:43:22.136 -04 [12272] SENTENCIA:  SELECT "product_category".id FROM "product_category" WHERE ("product_category"."complete_name" = 'CA') ORDER BY  "product_category"."complete_name"   LIMIT 100
+2021-08-25 18:10:15.945 -04 [14508] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-08-25 18:10:15.946 -04 [12272] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-08-25 18:10:15.952 -04 [9552] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-08-25 18:10:15.954 -04 [10764] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-08-25 18:10:15.960 -04 [15636] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-08-25 18:10:15.968 -04 [2032] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054

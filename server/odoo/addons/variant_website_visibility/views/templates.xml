@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="new_message_for_variants" inherit_id="website_sale.product">
+
+        <xpath expr="//div[hasclass('js_product')]/p" position="replace">
+            <span t-if="len(product.product_variant_ids) &gt; 1" class="tachado">
+                <t t-if="product.env['ir.config_parameter'].sudo().get_param('stock.website_variants_visibility_message')"  t-raw="product.env['ir.config_parameter'].sudo().get_param('stock.website_variants_visibility_message')"/>
+                <t t-attf-class="availability_message_#{product_template} text-danger mt16"><i class="fa fa-exclamation-triangle" role="img" aria-label="Warning" title="Warning"/>  Temporalmente sin stock.</t>
+            </span>
+        </xpath>
+    </template>
+<!-- documentacion utilizada para los colores y simbolos importante!!
+https://getbootstrap.com/docs/4.0/utilities/colors/ colores
+https://qastack.mx/programming/5068951/what-do-lt-and-gt-stand-for#:~:text=%3E%20and%20%3C%20es%20una,(%20%3C%20). &gt;
+https://www.w3schools.com/bootstrap/bootstrap_ref_css_helpers.asp text-danger
+https://www.w3schools.com/bootstrap/bootstrap_alerts.asp alert-warning
+-->
+
+</odoo>

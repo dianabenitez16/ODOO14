@@ -1,0 +1,6 @@
+2021-09-22 11:16:42.533 -04 [13196] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2021-09-22 11:16:42.533 -04 [13196] SENTENCIA:  UPDATE "website_page" SET "header_visible"=true,"write_uid"=2,"write_date"=(now() at time zone 'UTC') WHERE id IN (3)
+2021-09-22 11:16:42.533 -04 [2040] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2021-09-22 11:16:42.533 -04 [2040] SENTENCIA:  UPDATE "website_page" SET "header_color"='bg-white-25',"write_uid"=2,"write_date"=(now() at time zone 'UTC') WHERE id IN (3)
+2021-09-22 11:24:11.381 -04 [10568] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2021-09-22 11:24:11.381 -04 [10568] SENTENCIA:  UPDATE "website_page" SET "header_color"='bg-true',"write_uid"=2,"write_date"=(now() at time zone 'UTC') WHERE id IN (3)

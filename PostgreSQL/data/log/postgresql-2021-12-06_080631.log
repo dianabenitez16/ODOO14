@@ -1,0 +1,13 @@
+2021-12-06 08:06:32.037 -03 [4720] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2021-12-06 01:23:04 -03
+2021-12-06 08:06:34.329 -03 [4720] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2021-12-06 08:06:34.339 -03 [4720] LOG:  redo comienza en 0/1E557980
+2021-12-06 08:06:34.340 -03 [4720] LOG:  largo de registro no válido en 0/1E557A68: se esperaba 24, se obtuvo 0
+2021-12-06 08:06:34.341 -03 [4720] LOG:  redo listo en 0/1E557A30
+2021-12-06 08:06:34.393 -03 [4872] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2021-12-06 12:13:50.898 -03 [4872] LOG:  se recibió petición de apagado rápido
+2021-12-06 12:13:50.905 -03 [4872] LOG:  abortando transacciones activas
+2021-12-06 12:13:50.915 -03 [5804] ERROR:  cancelando la sentencia debido a una petición del usuario
+2021-12-06 12:13:50.915 -03 [5800] ERROR:  cancelando la sentencia debido a una petición del usuario
+2021-12-06 12:13:50.934 -03 [4872] LOG:  proceso ayudante «logical replication launcher» (PID 5800) terminó con código de salida 1
+2021-12-06 12:13:50.943 -03 [5824] LOG:  apagando
+2021-12-06 12:13:50.994 -03 [4872] LOG:  el sistema de bases de datos está apagado

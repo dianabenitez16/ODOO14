@@ -1,0 +1,27 @@
+2021-11-01 09:29:51.162 -03 [16156] ERROR:  no se pudo bloquear un candado en la fila de la relación «website_visitor»
+2021-11-01 09:29:51.162 -03 [16156] SENTENCIA:  SELECT * FROM website_visitor where id = 1 FOR NO KEY UPDATE NOWAIT
+2021-11-01 09:30:50.792 -03 [16156] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:30:50.818 -03 [3224] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:30:50.819 -03 [5732] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:30:50.838 -03 [7320] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:30:50.855 -03 [16088] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:30:50.863 -03 [448] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:33:55.250 -03 [14948] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:33:55.252 -03 [19052] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:33:55.278 -03 [13692] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:33:55.279 -03 [10692] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:33:55.283 -03 [5188] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:33:55.284 -03 [19388] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:36:27.139 -03 [16284] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:36:27.139 -03 [10988] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:36:27.158 -03 [5388] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:36:27.158 -03 [18116] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:38:24.742 -03 [18896] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:38:24.758 -03 [17620] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:38:24.759 -03 [5532] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:38:24.761 -03 [12776] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:38:24.766 -03 [10288] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:38:24.768 -03 [19380] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:38:24.769 -03 [13668] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-01 09:41:18.172 -03 [2284] ERROR:  no se pudo serializar el acceso debido a un delete concurrente
+2021-11-01 09:41:18.172 -03 [2284] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (4593)

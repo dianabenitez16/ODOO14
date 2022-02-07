@@ -1,0 +1,13 @@
+2021-08-24 04:02:09.644 -04 [5264] LOG:  se recibió petición de apagado rápido
+2021-08-24 04:02:09.660 -04 [5264] LOG:  abortando transacciones activas
+2021-08-24 04:02:09.661 -04 [4028] ERROR:  cancelando la sentencia debido a una petición del usuario
+2021-08-24 04:02:09.677 -04 [14716] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2021-08-24 04:02:09.690 -04 [10144] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2021-08-24 04:02:09.704 -04 [4584] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2021-08-24 04:02:09.713 -04 [10528] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2021-08-24 04:02:09.746 -04 [10032] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2021-08-24 04:02:09.771 -04 [2032] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2021-08-24 04:02:09.779 -04 [5264] LOG:  proceso ayudante «logical replication launcher» (PID 4028) terminó con código de salida 1
+2021-08-24 04:02:09.783 -04 [3092] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2021-08-24 04:02:09.882 -04 [1540] LOG:  apagando
+2021-08-24 04:02:10.245 -04 [5264] LOG:  el sistema de bases de datos está apagado

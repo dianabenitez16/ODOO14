@@ -1,0 +1,8 @@
+2021-08-20 17:17:31.131 -04 [10740] ERROR:  no se pudo bloquear un candado en la fila de la relación «ir_cron»
+2021-08-20 17:17:31.131 -04 [10740] SENTENCIA:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=11
+	                                       FOR UPDATE NOWAIT

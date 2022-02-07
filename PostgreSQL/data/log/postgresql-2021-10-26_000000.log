@@ -1,0 +1,29 @@
+2021-10-26 15:33:31.168 -03 [6700] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 15:33:31.169 -03 [11268] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 15:33:31.195 -03 [6120] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 15:33:31.199 -03 [4604] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 15:33:31.201 -03 [14868] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 15:33:31.217 -03 [9472] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 15:33:31.222 -03 [17328] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 16:20:17.220 -03 [16576] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 16:20:17.221 -03 [15496] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 16:20:17.230 -03 [5140] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 16:20:17.234 -03 [2640] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 16:20:17.238 -03 [16988] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 16:20:17.239 -03 [6240] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 16:20:31.552 -03 [11592] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2021-10-26 16:20:31.552 -03 [11592] SENTENCIA:  UPDATE "pos_session" SET "login_number"=5,"write_uid"=2,"write_date"=(now() at time zone 'UTC') WHERE id IN (1)
+2021-10-26 17:23:42.456 -03 [11592] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 17:23:42.465 -03 [15380] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 17:23:42.465 -03 [16676] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 17:23:42.469 -03 [15240] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 17:23:42.481 -03 [13632] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 17:23:42.483 -03 [10752] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 17:25:31.124 -03 [16548] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2021-10-26 17:25:31.124 -03 [16548] SENTENCIA:  SELECT * FROM website_visitor where id = 1 FOR NO KEY UPDATE NOWAIT
+2021-10-26 17:28:50.552 -03 [16548] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 17:28:50.566 -03 [10336] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 17:28:50.570 -03 [14912] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 17:28:50.579 -03 [1636] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 17:28:50.593 -03 [13104] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-10-26 17:28:50.598 -03 [9520] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054

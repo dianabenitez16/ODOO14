@@ -1,0 +1,13 @@
+2021-10-16 15:44:08.219 -03 [5712] LOG:  se recibió petición de apagado rápido
+2021-10-16 15:44:08.224 -03 [5712] LOG:  abortando transacciones activas
+2021-10-16 15:44:08.228 -03 [10192] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2021-10-16 15:44:08.229 -03 [9752] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2021-10-16 15:44:08.233 -03 [2152] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2021-10-16 15:44:08.234 -03 [7536] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2021-10-16 15:44:08.237 -03 [2372] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2021-10-16 15:44:08.237 -03 [5640] ERROR:  cancelando la sentencia debido a una petición del usuario
+2021-10-16 15:44:08.238 -03 [9832] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2021-10-16 15:44:08.241 -03 [9460] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2021-10-16 15:44:08.248 -03 [5712] LOG:  proceso ayudante «logical replication launcher» (PID 5640) terminó con código de salida 1
+2021-10-16 15:44:08.295 -03 [5644] LOG:  apagando
+2021-10-16 15:44:08.454 -03 [5712] LOG:  el sistema de bases de datos está apagado

@@ -1,0 +1,6 @@
+2021-10-02 22:29:30.006 -04 [5488] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2021-10-02 22:19:05 -04
+2021-10-02 22:29:38.699 -04 [5488] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2021-10-02 22:29:38.707 -04 [5488] LOG:  redo comienza en 0/ED31A10
+2021-10-02 22:29:38.707 -04 [5488] LOG:  largo de registro no válido en 0/ED31AF8: se esperaba 24, se obtuvo 0
+2021-10-02 22:29:38.708 -04 [5488] LOG:  redo listo en 0/ED31AC0
+2021-10-02 22:29:38.746 -04 [5088] LOG:  el sistema de bases de datos está listo para aceptar conexiones

@@ -1,0 +1,16 @@
+2022-01-09 00:06:11.469 -03 [5936] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2022-01-08 23:59:20 -03
+2022-01-09 00:06:14.163 -03 [5936] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2022-01-09 00:06:14.171 -03 [5936] LOG:  redo comienza en 0/1F97F8F8
+2022-01-09 00:06:14.173 -03 [5936] LOG:  largo de registro no válido en 0/1F981670: se esperaba 24, se obtuvo 0
+2022-01-09 00:06:14.174 -03 [5936] LOG:  redo listo en 0/1F981638
+2022-01-09 00:06:14.225 -03 [5304] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2022-01-10 10:01:49.617 -03 [11328] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2022-01-10 10:01:49.617 -03 [11328] SENTENCIA:  SELECT * FROM website_visitor where id = 1 FOR NO KEY UPDATE NOWAIT
+2022-01-10 10:02:30.644 -03 [1516] ERROR:  no se pudo bloquear un candado en la fila de la relaciÃ³n Â«ir_cronÂ»
+2022-01-10 10:02:30.644 -03 [1516] SENTENCIA:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=11
+	                                       FOR UPDATE NOWAIT

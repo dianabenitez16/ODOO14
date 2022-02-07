@@ -1,0 +1,24 @@
+2022-01-13 16:15:31.379 -03 [1516] ERROR:  no se pudo bloquear un candado en la fila de la relación «ir_cron»
+2022-01-13 16:15:31.379 -03 [1516] SENTENCIA:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=1
+	                                       FOR UPDATE NOWAIT
+2022-01-13 16:16:32.981 -03 [5300] ERROR:  no se pudo bloquear un candado en la fila de la relación «ir_cron»
+2022-01-13 16:16:32.981 -03 [5300] SENTENCIA:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=3
+	                                       FOR UPDATE NOWAIT
+2022-01-13 21:28:50.844 -03 [14288] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2022-01-13 21:28:50.844 -03 [14288] SENTENCIA:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=15
+	                                       FOR UPDATE NOWAIT

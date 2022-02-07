@@ -1,0 +1,8 @@
+2021-11-15 15:29:59.595 -03 [5112] LOG:  el sistema de bases de datos fue apagado en 2021-11-15 15:29:34 -03
+2021-11-15 15:29:59.646 -03 [4800] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2021-11-15 17:49:00.127 -03 [4800] LOG:  se recibió petición de apagado rápido
+2021-11-15 17:49:00.132 -03 [4800] LOG:  abortando transacciones activas
+2021-11-15 17:49:00.135 -03 [5124] ERROR:  cancelando la sentencia debido a una petición del usuario
+2021-11-15 17:49:00.157 -03 [4800] LOG:  proceso ayudante «logical replication launcher» (PID 5124) terminó con código de salida 1
+2021-11-15 17:49:00.166 -03 [4836] LOG:  apagando
+2021-11-15 17:49:00.283 -03 [4800] LOG:  el sistema de bases de datos está apagado

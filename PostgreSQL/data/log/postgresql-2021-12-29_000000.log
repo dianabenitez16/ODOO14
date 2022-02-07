@@ -1,0 +1,2 @@
+2021-12-29 09:37:08.778 -03 [1332] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2021-12-29 09:37:08.778 -03 [1332] SENTENCIA:  SELECT * FROM website_visitor where id = 1 FOR NO KEY UPDATE NOWAIT

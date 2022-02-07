@@ -1,0 +1,10 @@
+2021-09-06 09:05:52.984 -04 [5128] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2021-09-05 22:31:15 -04
+2021-09-06 09:06:08.008 -04 [5128] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2021-09-06 09:06:08.018 -04 [5128] LOG:  redo comienza en 0/D2CF638
+2021-09-06 09:06:08.018 -04 [5128] LOG:  largo de registro no válido en 0/D2CF720: se esperaba 24, se obtuvo 0
+2021-09-06 09:06:08.019 -04 [5128] LOG:  redo listo en 0/D2CF6E8
+2021-09-06 09:06:08.219 -04 [4584] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2021-09-08 09:28:59.822 -04 [8024] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2021-09-08 09:28:59.822 -04 [8024] SENTENCIA:  SELECT * FROM website_visitor where id = 1 FOR NO KEY UPDATE NOWAIT
+2021-09-08 10:51:24.312 -04 [8900] ERROR:  no se pudo serializar el acceso debido a un delete concurrente
+2021-09-08 10:51:24.312 -04 [8900] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (1331, 1330, 1329, 1328, 1327, 1326, 1325, 1323, 1322, 1321, 1320, 1319, 1318, 1317, 1316, 1315, 1314, 1313, 1312, 1311, 1310, 1309, 1308, 1307, 1306, 1305, 1304, 1303, 1302, 1301, 1300, 1299, 1298, 1297, 1296, 1295, 1294, 1293, 1292, 1291, 1290, 1289, 1288, 1287, 1286, 1285, 1284, 1283, 1282, 1281, 1280, 1279, 1278, 1277, 1276, 1274, 1273, 1272, 1271, 1270, 1269, 1268, 1266, 1265, 1264, 1263, 1262, 1261, 1260, 1259, 1258, 1257, 1256, 1255)

@@ -1,0 +1,6 @@
+2021-09-28 19:46:56.342 -04 [4724] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2021-09-28 19:21:05 -04
+2021-09-28 19:47:13.351 -04 [4724] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2021-09-28 19:47:13.360 -04 [4724] LOG:  redo comienza en 0/EB0E6D0
+2021-09-28 19:47:13.361 -04 [4724] LOG:  largo de registro no válido en 0/EB0E7B8: se esperaba 24, se obtuvo 0
+2021-09-28 19:47:13.362 -04 [4724] LOG:  redo listo en 0/EB0E780
+2021-09-28 19:47:13.403 -04 [5116] LOG:  el sistema de bases de datos está listo para aceptar conexiones

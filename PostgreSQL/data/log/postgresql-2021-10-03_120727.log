@@ -1,0 +1,4 @@
+2021-10-03 12:07:27.906 -03 [5684] LOG:  el sistema de bases de datos fue apagado en 2021-10-03 12:06:51 -03
+2021-10-03 12:07:27.980 -03 [5316] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2021-10-04 09:21:38.555 -03 [1780] ERROR:  no se pudo serializar el acceso debido a un update concurrente
+2021-10-04 09:21:38.555 -03 [1780] SENTENCIA:  SELECT * FROM website_visitor where id = 1 FOR NO KEY UPDATE NOWAIT

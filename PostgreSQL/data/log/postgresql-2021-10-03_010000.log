@@ -1,0 +1,7 @@
+2021-10-03 12:06:51.736 -03 [5088] LOG:  se recibió petición de apagado rápido
+2021-10-03 12:06:51.745 -03 [5088] LOG:  abortando transacciones activas
+2021-10-03 12:06:51.750 -03 [5988] ERROR:  cancelando la sentencia debido a una petición del usuario
+2021-10-03 12:06:51.750 -03 [5984] ERROR:  cancelando la sentencia debido a una petición del usuario
+2021-10-03 12:06:51.757 -03 [5088] LOG:  proceso ayudante «logical replication launcher» (PID 5988) terminó con código de salida 1
+2021-10-03 12:06:51.768 -03 [588] LOG:  apagando
+2021-10-03 12:06:51.876 -03 [5088] LOG:  el sistema de bases de datos está apagado

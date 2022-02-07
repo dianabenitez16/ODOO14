@@ -1,0 +1,6 @@
+2021-11-03 17:35:52.204 -03 [18496] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-03 17:35:52.209 -03 [21680] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-03 17:35:52.210 -03 [22184] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-03 17:35:52.213 -03 [22276] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-03 17:54:13.195 -03 [10484] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2021-11-03 17:54:13.203 -03 [18576] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054

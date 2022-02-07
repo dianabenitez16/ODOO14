@@ -1,0 +1,11 @@
+2021-10-15 11:51:08.571 -03 [9460] ERROR:  llave duplicada viola restricción de unicidad «ir_model_fields_name_unique»
+2021-10-15 11:51:08.571 -03 [9460] DETALLE:  Ya existe la llave (model, name)=(product.product, x_ispublished).
+2021-10-15 11:51:08.571 -03 [9460] SENTENCIA:  INSERT INTO "ir_model_fields" ("id", "create_uid", "create_date", "write_uid", "write_date", "compute", "copied", "depends", "domain", "field_description", "help", "index", "model", "model_id", "name", "on_delete", "readonly", "related", "required", "selectable", "state", "store", "tracking", "ttype", "website_form_blacklisted") VALUES (nextval('ir_model_fields_id_seq'), 2, (now() at time zone 'UTC'), 2, (now() at time zone 'UTC'), NULL, true, NULL, '[]', 'Variante', NULL, false, 'product.product', 330, 'x_ispublished', 'set null', false, NULL, false, true, 'manual', true, 0, 'boolean', true) RETURNING id
+2021-10-15 19:04:40.141 -03 [2372] ERROR:  no se pudo bloquear un candado en la fila de la relación «ir_cron»
+2021-10-15 19:04:40.141 -03 [2372] SENTENCIA:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=11
+	                                       FOR UPDATE NOWAIT

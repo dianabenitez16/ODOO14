@@ -1,0 +1,2 @@
+2021-08-30 17:55:46.429 -04 [15008] ERROR:  no se pudo serializar el acceso debido a un delete concurrente
+2021-08-30 17:55:46.429 -04 [15008] SENTENCIA:  DELETE FROM ir_attachment WHERE id IN (932)

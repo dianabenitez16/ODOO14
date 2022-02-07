@@ -1,0 +1,6 @@
+2021-10-24 17:22:12.521 -03 [5176] LOG:  se recibió petición de apagado rápido
+2021-10-24 17:22:12.525 -03 [5176] LOG:  abortando transacciones activas
+2021-10-24 17:22:12.533 -03 [5668] ERROR:  cancelando la sentencia debido a una petición del usuario
+2021-10-24 17:22:12.552 -03 [5176] LOG:  proceso ayudante «logical replication launcher» (PID 5668) terminó con código de salida 1
+2021-10-24 17:22:12.560 -03 [5624] LOG:  apagando
+2021-10-24 17:22:12.725 -03 [5176] LOG:  el sistema de bases de datos está apagado

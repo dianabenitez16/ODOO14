@@ -1,0 +1,6 @@
+2021-10-07 23:43:20.207 -03 [5684] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2021-10-07 17:41:50 -03
+2021-10-07 23:43:22.065 -03 [5684] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2021-10-07 23:43:22.074 -03 [5684] LOG:  redo comienza en 0/EF66928
+2021-10-07 23:43:22.090 -03 [5684] LOG:  largo de registro no válido en 0/EF869D8: se esperaba 24, se obtuvo 0
+2021-10-07 23:43:22.091 -03 [5684] LOG:  redo listo en 0/EF869A0
+2021-10-07 23:43:22.165 -03 [5868] LOG:  el sistema de bases de datos está listo para aceptar conexiones

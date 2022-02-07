@@ -1,0 +1,14 @@
+2021-12-27 08:14:02.453 -03 [5688] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2021-12-13 08:23:09 -03
+2021-12-27 08:14:08.812 -03 [5688] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2021-12-27 08:14:08.820 -03 [5688] LOG:  redo comienza en 0/1E5DFEA0
+2021-12-27 08:14:08.821 -03 [5688] LOG:  largo de registro no válido en 0/1E5DFED8: se esperaba 24, se obtuvo 0
+2021-12-27 08:14:08.822 -03 [5688] LOG:  redo listo en 0/1E5DFEA0
+2021-12-27 08:14:08.876 -03 [5328] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2021-12-27 11:15:08.459 -03 [2792] ERROR:  no se pudo bloquear un candado en la fila de la relaciÃ³n Â«ir_cronÂ»
+2021-12-27 11:15:08.459 -03 [2792] SENTENCIA:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=11
+	                                       FOR UPDATE NOWAIT

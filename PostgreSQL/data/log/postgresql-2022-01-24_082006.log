@@ -1,0 +1,6 @@
+2022-01-24 08:20:06.976 -03 [5744] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2022-01-15 18:41:56 -03
+2022-01-24 08:20:09.099 -03 [5744] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2022-01-24 08:20:09.106 -03 [5744] LOG:  redo comienza en 0/1FE19230
+2022-01-24 08:20:09.107 -03 [5744] LOG:  largo de registro no válido en 0/1FE19268: se esperaba 24, se obtuvo 0
+2022-01-24 08:20:09.108 -03 [5744] LOG:  redo listo en 0/1FE19230
+2022-01-24 08:20:09.152 -03 [4584] LOG:  el sistema de bases de datos está listo para aceptar conexiones

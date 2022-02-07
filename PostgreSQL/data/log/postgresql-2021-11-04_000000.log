@@ -1,0 +1,6 @@
+2021-11-04 14:03:10.258 -03 [4196] LOG:  se recibió petición de apagado rápido
+2021-11-04 14:03:10.264 -03 [4196] LOG:  abortando transacciones activas
+2021-11-04 14:03:10.267 -03 [5604] ERROR:  cancelando la sentencia debido a una petición del usuario
+2021-11-04 14:03:10.287 -03 [4196] LOG:  proceso ayudante «logical replication launcher» (PID 5604) terminó con código de salida 1
+2021-11-04 14:03:10.297 -03 [5564] LOG:  apagando
+2021-11-04 14:03:10.463 -03 [4196] LOG:  el sistema de bases de datos está apagado
